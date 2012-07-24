@@ -1,0 +1,2 @@
+module DummyschoolHelper
+end

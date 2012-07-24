@@ -1,0 +1,139 @@
+*{
+margin:0;
+padding:0;
+}
+
+#main_wrapper
+	{
+		margin:0 auto;
+		width:1400px;
+		display:block;
+		background:url('images.jpeg') no-repeat;
+	}
+
+#wrapper
+	{
+		width:960px;
+		margin:0 auto;
+	}
+
+nav
+	{
+    float:left;
+    display:block;
+  	width:100%;
+   	padding: 0px;
+  }
+
+nav ul
+  {
+    list-style:none;
+  }
+
+nav ul li
+  {
+    float: left;
+		font-size: 12px;
+    font-weight: bold;
+    margin: 0 2px;
+    padding: 0 10px;
+		text-decoration:none;
+  }
+
+a
+	{
+		text-decoration:none;
+	}	
+
+#main_content
+	{
+		float:left;
+		background-color:blue;
+		opacity:0.6;
+	}
+ 
+#mainfooter
+	{
+		display:block;
+		float: right;
+		width: 987px;
+		background-color:black;
+	}
+
+#footercontent
+	{
+		width:987px;
+		display:block;
+		margin:0 auto;
+		float:left;
+	}
+
+#fblock1
+	{
+		display:block;
+		float:left;
+		width:320px;
+		border-right:2px solid white;
+	}
+
+#fblock1 p
+	{
+		color:#FF69B4;
+		float:left;
+		margin-left:10px;
+	}
+
+#fblock2
+	{
+		display:block;
+		width:665px;
+		float:left;
+	}
+
+#fblock2 ul
+	{
+		float:left;
+		list-style:none outside none;
+		padding-bottom: 4px;
+		padding-top:4px;
+		width:166px;
+	}
+
+#fblock2 h1
+	{
+		font-size:16px;
+		color:white;
+		float:left;
+	}
+
+#fblock2 .text
+	{
+		color: white;
+		float:left;
+    display: block;
+    font-size: 9px;
+    font-weight: bold;
+		text-decoration:none;
+	}
+
+#fblock2 .text:hover
+    color:blue;
+		float:left;
+	}
+
+#fblock2 a:hover 
+	{
+    color: blue;
+		float:left
+    text-decoration: underline;
+	}
+
+#blank
+	{
+		
+		margin:0 auto;
+		height:500px;
+		width:1400px;
+		float:left;
+		background-color:green;
+	}
